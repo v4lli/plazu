@@ -3,6 +3,9 @@ Plazu is a simple GPS Exchange Format (.gpx) viewer for OS X. It uses the
 Apple Maps API introduced in Mac OS 10.9. Plazu can currently display tracks
 and waypoints and their associated labels.
 
+.right[![Plazu
+logo](https://raw.githubusercontent.com/v4lli/plazu/master/Images.xcassets/AppIcon.appiconset/gpxview.png  | height = 100px )]
+
 ## MapKit Restrictions
 Sadly, Apple doesn't allow developers without a payed Mac Developer Account
 to use their MapKit API (or rather the actual map data). The app can be
@@ -14,7 +17,7 @@ in general. Don't expect anything else in terms of code quality or
 functionality!
 
 Some features I would work on next if I wasn't too cheap to pay the $100
-to renew my Mac Developer Membership include
+to renew my Mac Developer Membership:
 
 * Automatically zoom in on the area containing the plotted track
 * Track smoothing (i.e. don't just plot and connect waypoints)
